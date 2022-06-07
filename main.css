@@ -347,14 +347,15 @@ textarea {
   font-size: 0.9rem;
   line-height: 1.5rem;
   width: 100%;
-  margin: 14px 16px;
+  margin: 14px 0;
   border: none;
 }
 
-input {
+/* input {
   color: #979493;
-  max-width: 295px;
-}
+  width: 100%;
+  padding: 12px;
+} */
 
 textarea#textarea-mobile {
   margin: 14px 0;
