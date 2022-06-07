@@ -110,11 +110,7 @@ menu {
 
 #landing-page {
   width: 100%;
-<<<<<<< HEAD:main.css
   background-image: url('images/Illustration-mobile.png');
-=======
-  background-image: url("/images/Illustration-mobile.png");
->>>>>>> main:css/main.css
   background-repeat: no-repeat;
   background-position: 100% 215px;
   padding: 7.5rem 1.5rem 8.125rem 1.5rem;
@@ -270,11 +266,7 @@ button:active {
 }
 
 #about-section {
-<<<<<<< HEAD:main.css
   background-image: url('images/Frame.png');
-=======
-  background-image: url("/images/Frame.png");
->>>>>>> main:css/main.css
   background-repeat: no-repeat;
   background-position: 100% 395px;
   width: 100%;
@@ -321,31 +313,19 @@ button:active {
 }
 
 div > .lg-skill::before {
-<<<<<<< HEAD:main.css
   content: url('images/cube.png');
-=======
-  content: url("/images/cube.png");
->>>>>>> main:css/main.css
   position: absolute;
   left: 3.2rem;
 }
 
 div > .libraries::before {
-<<<<<<< HEAD:main.css
   content: url('images/Rectangle.png');
-=======
-  content: url("/images/Rectangle.png");
->>>>>>> main:css/main.css
   position: absolute;
   left: 2.5rem;
 }
 
 div > .tools::before {
-<<<<<<< HEAD:main.css
   content: url('images/circle.png');
-=======
-  content: url("/images/circle.png");
->>>>>>> main:css/main.css
   position: absolute;
   left: 5.5rem;
 }
@@ -395,7 +375,6 @@ textarea {
   border: none;
 }
 
-<<<<<<< HEAD:main.css
 input {
   color: #979493;
   width: 100%;
@@ -403,9 +382,6 @@ input {
 }
 
 textarea#textarea-mobile {
-=======
-textarea {
->>>>>>> main:css/main.css
   margin: 14px 0;
   height: 114px;
   padding: 12px;
