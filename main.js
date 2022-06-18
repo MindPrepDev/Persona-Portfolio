@@ -405,3 +405,26 @@ document.addEventListener('DOMContentLoaded', () => {
 //     }, 5000);
 //    }
 //  });
+
+// Setting Local Storage Up
+const visitor = document.querySelector('#username').value;
+const message = document.querySelector('#textarea').value;
+
+function localStorageData() {
+//   form.addEventListener('input', () => {
+//     const userData = {
+//       user_name: visitor,
+//       user_email: email.value,
+//       user_message: message,
+    };
+    localStorage.setItem('userData', JSON.stringify(userData));
+  });
+}
+localStorageData();
+
+function getLocalStorage() {
+  const getData = JSON.parse(localStorage.getItem('userData'));
+  visitor = getData.name;
+  email.value = getData.user_email;
+  message = getData.user_message;
+}
