@@ -348,6 +348,67 @@
   .project.six {
     grid-area: six;
   }
+
+  /* Modal Styling @768px min-width */
+  .modal-ctn {
+    margin: 5% auto;
+    padding: 2rem 1.5rem 1.85rem 1.5rem;
+    width: 85%;
+    height: 85%;
+  }
+
+  .modal-header-ctn {
+    height: 2rem;
+  }
+
+  .title-one {
+    font-family: 'Crete round', sans-serif;
+    font-weight: 400;
+  }
+
+  .pivot-ctn {
+    flex-direction: row;
+    color: #344563;
+    width: 100%;
+    height: 80%;
+    gap: 25px;
+  }
+
+  .modal-skills {
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+
+  .modal-texts {
+    max-height: 336px;
+    max-width: 424px;
+    float: inline-end;
+    overflow: hidden;
+    line-height: 30px;
+  }
+
+  .grp-textsBtn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: 460px;
+  }
+
+  .button-grp {
+    position: relative;
+    bottom: -16px;
+    margin-top: 2rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .project-snapshot {
+    width: 659px;
+    height: 448px;
+  }
 }
 
 @media (min-width: 1024px) {

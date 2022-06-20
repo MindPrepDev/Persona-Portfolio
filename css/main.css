@@ -191,9 +191,9 @@ section.sect-container {
 }
 
 .inline-hr {
-  margin: 24px 0 80px 0;
+  margin: 24px 1.5rem 80px 1.5rem;
   color: #212121;
-  width: 100%;
+  padding: 0 1.5rem;
 }
 
 .multi-post {
@@ -312,6 +312,8 @@ button:active {
   background-repeat: no-repeat;
   background-position: 100% 395px;
   width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .abt-txt {
@@ -464,7 +466,6 @@ hr#br {
 }
 
 /* Styling for Modal Menu */
-
 .pop {
   position: absolute;
   display: block;
@@ -474,7 +475,7 @@ hr#br {
   right: 0;
   width: 100%;
   padding: 0 1rem;
-  min-height: 725px;
+  height: 728px;
   margin: 0 auto;
   backdrop-filter: blur(5px);
   background-color: rgba(22, 19, 19, 0.9);
@@ -496,7 +497,7 @@ hr#br {
   margin: 1rem auto;
   padding: 2rem 1rem 1.25rem 1rem;
   width: 95%;
-  min-height: 725px;
+  height: auto;
 }
 
 .modal-header-ctn {
@@ -533,19 +534,22 @@ hr#br {
   flex-direction: column;
   width: 100%;
   color: #091e42;
-  min-height: 725px;
+  height: auto;
 }
 
 .project-snapshot {
   width: 100%;
-  height: auto;
-  margin: 0.8rem 0 1.5rem 0;
+  max-width: 659px;
+  height: 100%;
+  max-height: 448px;
+  margin: 0.8rem 0 2.5rem 0;
 }
 
 .button-grp {
   position: relative;
   margin-top: 16px;
   display: flex;
+  justify-content: space-between;
   gap: 12px;
 }
 
