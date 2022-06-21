@@ -259,7 +259,7 @@ const modalInformation = [
     projectNameD: 'Keeping track of hundreds  of components website',
     projectSummaryM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
     projectSummaryD: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    projectFeaturedImage: './images/modal-image.png',
+    projectFeaturedImage: './images/snap-pop.png',
     projectTechnologies: ['html', 'bootstrap', 'Ruby on rails'],
     projectLiveLink: '#',
     projectSourceRepo: 'https://www.github.com/MindPrepDev',
@@ -326,9 +326,7 @@ modalContainer.appendChild(modalTheme);
 const modalImage = document.createElement('img');
 modalImage.className = 'project-snapshot';
 modalImage.src = modalInformation[0].projectFeaturedImage;
-modalImage.alt = 'A reallly nice image about the project';
-modalImage.width = '300';
-modalImage.height = '210';
+modalImage.alt = 'A really nice image of the project';
 modalTheme.appendChild(modalImage);
 
 // Both paragraphs
