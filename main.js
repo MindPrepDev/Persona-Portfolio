@@ -405,11 +405,13 @@ form.addEventListener('submit', (event) => {
 });
 
 // Setting Local Storage Up
-let visitor = document.querySelector('#username').value;
+let visitor = document.querySelector('#name').value;
 let message = document.querySelector('#textarea').value;
+const getInfo = document.querySelector('.contact-btn');
 
-function localStorageData() {
-  form.addEventListener('input', () => {
+// Getting and converting stringed data into objects using JSON
+function localStorageAccess() {
+  getInfo.addEventListener('submit', () => {
     const userData = {
       user_name: visitor,
       user_email: email.value,
@@ -418,12 +420,12 @@ function localStorageData() {
     localStorage.setItem('userData', JSON.stringify(userData));
   });
 }
-localStorageData();
+localStorageAccess();
 
 function getLocalStorage() {
   const getData = JSON.parse(localStorage.getItem('userData'));
-  visitor = getData.name;
-  email.value = getData.user_email;
-  message = getData.user_message;
+//   visitor = getData.user_name;
+//   email.value = getData.user_email;
+//   message = getData.user_message;
 }
 getLocalStorage();
