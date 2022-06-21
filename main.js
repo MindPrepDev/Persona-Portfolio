@@ -381,29 +381,13 @@ document.addEventListener('DOMContentLoaded', () => {
     popModal.style.display = 'none';
   });
 
-  // // When the user clicks anywhere outside of the modal, close it
-  // window.addEventListener('click', (e) => {
-  //   if (e.target === popModal) {
-  //     popModal.style.display = 'none';
-  //   }
-  // });
+  // When the user clicks anywhere outside of the modal, close it
+  window.addEventListener('click', (e) => {
+    if (e.target === popModal) {
+    //     popModal.style.display = 'none';
+    }
+  });
 });
-
-// Form Validation
-const form = document.querySelector('.form');
-const email = document.querySelector('#email');
-// const error = document.querySelector('.error-index');
-
-//  form.addEventListener('submit', (event) => {
-//    if (email.value !== email.value.toLowerCase()) {
-//      error.textContent = 'Almost there! Use all-lowercase this time.';
-//      error.style.color = 'red';
-//      event.preventDefault();
-//      setTimeout(() => {
-//       error.innerHTML = '';
-//     }, 5000);
-//    }
-//  });
 
 // Setting Local Storage Up
 let visitor = document.querySelector('#username').value;
