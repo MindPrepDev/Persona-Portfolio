@@ -383,6 +383,8 @@ div > .tools::before {
 .contact-form {
   display: flex;
   flex-direction: column;
+  justify-content: stretch;
+  align-items: flex-start;
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -399,7 +401,7 @@ div > .tools::before {
 }
 
 form {
-  margin-top: 73px;
+  margin: 73px auto 0 auto;
   padding-bottom: 124px;
 }
 
@@ -431,6 +433,12 @@ textarea {
 .contact-btn {
   width: 131px;
   height: 48px;
+}
+
+.error-index {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 0.8rem;
 }
 
 hr.form-line {
@@ -468,7 +476,7 @@ hr#br {
 /* Styling for Modal Menu */
 .pop {
   position: fixed;
-  display: block;
+  display: none;
   z-index: 1000;
   top: 0;
   left: 0;
@@ -482,6 +490,7 @@ hr#br {
   backdrop-filter: blur(5px);
   background-color: rgba(22, 19, 19, 0.9);
   overflow: auto;
+  transition: all 1.5s ease-in;
 }
 
 .modalExit {
@@ -505,7 +514,6 @@ hr#br {
 .modal-header-ctn {
   display: flex;
   justify-content: space-between;
-  height: 82px;
 }
 
 .title-one {
@@ -523,6 +531,7 @@ hr#br {
   font-size: 0.8rem;
   color: #3c3a39;
   width: 100%;
+  margin-top: 70px;
 }
 
 .modal-list {
